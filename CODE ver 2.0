@@ -1,0 +1,25 @@
+#CODE
+
+
+print ("Hello I am your marks calculator :)")
+s = int(input('what is your second language 1.Hindi 2.Kanada')) 
+if s==1:
+    a = int(input('what is your Hindi marks'))
+if s==2:
+    a= int(input('what is your Kanada marks'))
+b= int(input("what is your English marks"))
+d= int(input("what is your Maths marks"))
+e= int(input("what is your Evs marks"))
+f= int(input("what is your Computer marks"))
+print("good now I will add your marks")
+if s==1:
+    print (f"Hindi          = {a}")
+if s==2:
+    print (f"Kanada          = {a}")
+print (f"English            = {b}")
+print (f"Maths            = {d}")
+print (f"EVS              = {e}")
+print (f"Computer Science = {f}")
+print (f"Total Marks      = {a+b+d+e+f}")
+
+
